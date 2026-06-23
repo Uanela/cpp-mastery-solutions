@@ -4,6 +4,8 @@ class String {
 
   public:
     std::string data;
+    // tells the compiler to create a default constructor
+    // so that the class can be instatiated without arguments
     String() = default;
 
     String(const char *str) : data(str) {}
